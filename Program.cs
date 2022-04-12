@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using invasionX.Invasionx.Server;
+using invasionX.invasionx.Client;
 
 namespace invasionX
 {
@@ -16,7 +18,9 @@ namespace invasionX
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+			//Application.Run(new Server());
+			Application.Run(new Client());
+
 		}
 	}
 }
